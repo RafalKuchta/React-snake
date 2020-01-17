@@ -101,23 +101,19 @@ class Game extends Component {
 
     handleButton = () => {
         document.querySelector('.up').addEventListener('click', () => {
-            console.log("up")
             this.nextDirection = KEYS.up
             
         })
 
         document.querySelector('.left').addEventListener('click', () => {
-            console.log("left")
             this.nextDirection = KEYS.left
         })
 
         document.querySelector('.right').addEventListener('click', () => {
-            console.log("right")
             this.nextDirection = KEYS.right
         })
 
         document.querySelector('.down').addEventListener('click', () => {
-            console.log("down")
             this.nextDirection = KEYS.down
         })
 
